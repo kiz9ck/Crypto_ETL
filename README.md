@@ -3,7 +3,7 @@
 ![Python](https://img.shields.io/badge/Python-3.10-blue?logo=python&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-Containerized-blue?logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-15-elephant?logo=postgresql&logoColor=white)
-![Build Status](https://github.com/[YOUR_USERNAME]/crypto-etl-portfolio/actions/workflows/ci.yml/badge.svg)
+![Build Status](https://github.com/kiz9ck/Crypto_ETL/actions/workflows/ci.yml/badge.svg)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 A professional, containerized **ETL (Extract, Transform, Load) Pipeline** designed to track cryptocurrency prices, analyze market fluctuations, and send real-time alerts.
