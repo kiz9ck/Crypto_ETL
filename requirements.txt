@@ -1,0 +1,7 @@
+requests
+datetime
+pandas
+sqlalchemy
+psycopg2-binary
+python-dotenv
+schedule
