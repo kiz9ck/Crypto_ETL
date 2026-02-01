@@ -69,18 +69,27 @@ git clone https://github.com/kiz9ck/Crypto_ETL.git
 cd Crypto_ETL
 ```
 
-### 2. Configure Environment
+### 2. Install the required dependencies
+```bash
+pip install -r requirements.txt
+```
+If you need to uninstall dependencies
+```bash
+pip uninstall -r requirements.txt -y
+```
+
+### 3. Configure Environment
 ```bash
 cp .env.example .env
 ```
 Open .env and fill in your credentials (database user, password, and email settings).
 
-### 3. Launch with Docker 🐳
+### 4. Launch with Docker 🐳
 ```bash
 docker-compose up --build -d
 ```
 
-### 4. Verify Status
+### 5. Verify Status
 ```bash 
 docker ps
 ```
