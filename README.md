@@ -65,7 +65,7 @@ Follow these steps to get the pipeline running in minutes.
 
 ### 1. Clone the repository
 ```bash
-git clone [https://github.com/kiz9ck/Crypto_ETL.git](https://github.com/kiz9ck/Crypto_ETL.git)
+git clone https://github.com/kiz9ck/Crypto_ETL.git
 cd Crypto_ETL
 ```
 
