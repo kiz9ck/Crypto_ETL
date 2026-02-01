@@ -57,6 +57,7 @@ crypto_etl/
 ├── docker-compose.yml   # Container orchestration
 ├── Dockerfile           # Python worker image definition
 └── requirements.txt     # Python dependencies
+```
 
 ## 🏃‍♂️ How to Run
 
