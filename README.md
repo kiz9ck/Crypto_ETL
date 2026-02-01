@@ -57,3 +57,34 @@ crypto_etl/
 ├── docker-compose.yml   # Container orchestration
 ├── Dockerfile           # Python worker image definition
 └── requirements.txt     # Python dependencies
+
+## 🏃‍♂️ How to Run
+
+Follow these steps to get the pipeline running in minutes.
+
+### 1. Clone the repository
+```bash
+git clone [https://github.com/kiz9ck/Crypto_ETL.git](https://github.com/kiz9ck/Crypto_ETL.git)
+cd Crypto_ETL
+```
+
+### 2. Configure Environment
+```bash
+cp .env.example .env
+```
+Open .env and fill in your credentials (database user, password, and email settings).
+
+### 3. Launch with Docker 🐳
+```bash
+docker-compose up --build -d
+```
+
+### 4. Verify Status
+```bash 
+docker ps
+```
+To see the real-time logs of the Python worker:
+```bash
+docker logs -f crypto_worker
+```
+
